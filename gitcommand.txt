@@ -1,5 +1,6 @@
 #Git Commands
 
+
 1. //to Download/Use/Update Project from Github.com 
 git clone git@github.com:monu2580/firstday.git //to Update Prject from Github.com
 
@@ -29,6 +30,8 @@ git checkout --<file>...  //to discard changes in working directory)
 git commit -m "Deleted file"
 git push
 
+//to Rename File 
+git rm <old_file_name> <new_file_name>
 
 3. //To Edit File
 sudo vim demo.txt. //to do modification in file
@@ -59,15 +62,12 @@ git rebase master //to get Update From Master to branch
 git push
 
 
-//Line Added by branch b3
-//Lind Added by branch b2
+6. //to Check Hiistory of File modification
 
-//line added by b2 at 2:19 PM
+git diff
 
-//line added by master 2:30 PM
-
-//Line Added by b3 at 2:38 PM
-
+7. //to see  or compare privious and current file
+git difftool
 
 
 
