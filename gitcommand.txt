@@ -1,0 +1,73 @@
+#Git Commands
+
+1. //to Download/Use/Update Project from Github.com 
+git clone git@github.com:monu2580/firstday.git //to Update Prject from Github.com
+
+git status //to check changes in
+
+git add pyprob1.py  // to add file to github
+
+git checkout pyprob1.py //to notify changes to github 
+
+git commit -m "first class" //commit file to github
+
+git push //push changes file to github
+
+
+
+2. //to delete File From Github 
+rm sample.txt  //to delete File from workspace folder
+
+git status
+
+git rm sample.txt //notify to git
+
+(git add/rm <file>  // to update what will be committed)
+git checkout --<file>...  //to discard changes in working directory)
+ e.g.-  git checkout * 
+
+git commit -m "Deleted file"
+git push
+
+
+3. //To Edit File
+sudo vim demo.txt. //to do modification in file
+
+i //press i to insert somthing
+
+esc :(shft+;) wq  // to save file
+
+
+4. // Work with Branch
+
+git branch //to Check/show all  Branches
+git branch <new Branch name> //to create New Branch
+git checkout <branch_name> //to switch to other branch
+
+git checkout -b <new Branch name> // to create new Branch and Switch to this new Branch
+
+git branch -d <branch name> //to delete created  branch
+
+git push --al. (or) git push  //to push everything
+
+git checkout master
+git merge b2/b3 // to get Update From Branch to Master
+git push
+
+git checkout b2/b3
+git rebase master //to get Update From Master to branch
+git push
+
+
+//Line Added by branch b3
+//Lind Added by branch b2
+
+//line added by b2 at 2:19 PM
+
+//line added by master 2:30 PM
+
+//Line Added by b3 at 2:38 PM
+
+
+
+
